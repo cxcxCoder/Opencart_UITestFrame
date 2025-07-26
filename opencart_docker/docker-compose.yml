@@ -1,0 +1,27 @@
+services:
+  db:
+    image: mysql:5.7
+    container_name: opencart-db
+    restart: unless-stopped
+    environment:
+      MYSQL_ROOT_PASSWORD: rootpass123
+      MYSQL_DATABASE: opencart
+      MYSQL_USER: opencartuser
+      MYSQL_PASSWORD: opencartpass
+    volumes:
+      - db_data:/var/lib/mysql
+
+  web:
+    build: .
+    container_name: opencart-web
+    ports:
+      - "8080:80"
+    volumes:
+      - ./upload:/var/www/html
+      - ./php.ini:/usr/local/etc/php/conf.d/custom.ini
+    depends_on:
+      - db
+    restart: unless-stopped
+
+volumes:
+  db_data:

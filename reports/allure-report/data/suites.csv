@@ -1,0 +1,4 @@
+"DESCRIPTION","DURATION IN MS","NAME","PARENT SUITE","START TIME","STATUS","STOP TIME","SUB SUITE","SUITE","TEST CLASS","TEST METHOD"
+"
+    测试入口
+    ","9599","用户首页正常注册后登录","tests","Sat Jul 26 15:26:05 CST 2025","passed","Sat Jul 26 15:26:15 CST 2025","","test_entry","",""

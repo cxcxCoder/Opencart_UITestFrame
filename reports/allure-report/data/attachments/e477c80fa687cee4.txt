@@ -1,0 +1,21 @@
+[32mINFO    [0m utils.recordlogs:conftest.py:46 //////////////////开始执行前置条件//////////////////
+[32mINFO    [0m utils.recordlogs:dispatchbase.py:80 PO步骤执行：【home】点击账号-注册
+[31m[1mERROR   [0m utils.recordlogs:base_page.py:252 ✅ 【顶部导航】 执行页面跳转**成功**
+[32mINFO    [0m utils.recordlogs:base_page.py:262 ✅URL 跳转**成功**期望：【/register】--实际： 【http://localhost:8080/index.php?route=account/register&language=en-gb】
+[32mINFO    [0m utils.recordlogs:dispatchbase.py:80 PO步骤执行：【ac_register】注册账号
+[32mINFO    [0m utils.recordlogs:ac_register_page.py:14 注册页面-进行注册
+[31m[1mERROR   [0m utils.recordlogs:base_page.py:252 ✅ 【注册】 执行页面跳转**成功**
+[32mINFO    [0m utils.recordlogs:base_page.py:262 ✅URL 跳转**成功**期望：【customer_token】--实际： 【http://localhost:8080/index.php?route=account/success&language=en-gb&customer_token=ad770853d050cd011ef065b7d5】
+[32mINFO    [0m utils.recordlogs:dispatchbase.py:80 PO步骤执行：【now】退出自动登录
+[31m[1mERROR   [0m utils.recordlogs:base_page.py:252 ✅ 【顶部导航】 执行页面跳转**成功**
+[32mINFO    [0m utils.recordlogs:base_page.py:262 ✅URL 跳转**成功**期望：【/logout】--实际： 【http://localhost:8080/index.php?route=account/logout&language=en-gb】
+[32mINFO    [0m utils.recordlogs:dispatchbase.py:80 PO步骤执行：【now】点击账号-登录
+[31m[1mERROR   [0m utils.recordlogs:base_page.py:252 ✅ 【顶部导航】 执行页面跳转**成功**
+[32mINFO    [0m utils.recordlogs:base_page.py:262 ✅URL 跳转**成功**期望：【/login】--实际： 【http://localhost:8080/index.php?route=account/login&language=en-gb】
+[32mINFO    [0m utils.recordlogs:dispatchbase.py:80 PO步骤执行：【ac_login】点击账号-登录
+[32mINFO    [0m utils.recordlogs:ac_login_page.py:14 登录页面-进行登录
+[31m[1mERROR   [0m utils.recordlogs:base_page.py:252 ✅ 【登录】 执行页面跳转**成功**
+[32mINFO    [0m utils.recordlogs:base_page.py:262 ✅URL 跳转**成功**期望：【customer_token】--实际： 【http://localhost:8080/index.php?route=account/account&language=en-gb&customer_token=b0184ca8e8cf6d617bda9ad8c2】
+[32mINFO    [0m utils.recordlogs:dispatchbase.py:80 PO步骤执行：【now】【断言】验证登录成功
+[32mINFO    [0m utils.recordlogs:base_page.py:262 ✅URL 跳转**成功**期望：【customer_token】--实际： 【http://localhost:8080/index.php?route=account/account&language=en-gb&customer_token=b0184ca8e8cf6d617bda9ad8c2】
+[32mINFO    [0m utils.recordlogs:conftest.py:63 //////////////////开始执行后置条件//////////////////
