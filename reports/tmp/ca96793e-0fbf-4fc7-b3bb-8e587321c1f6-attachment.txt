@@ -1,1 +1,0 @@
-期望：【/register】--实际： 【http://localhost:8080/index.php?route=account/register&language=en-gb】
